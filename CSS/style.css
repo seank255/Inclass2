@@ -22,6 +22,7 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 .pic{
     visibility: hidden;

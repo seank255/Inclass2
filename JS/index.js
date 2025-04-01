@@ -8,6 +8,7 @@ var dog = document.querySelector('#dogpic');
 catbtn.addEventListener("click",catImg);
 dogbtn.addEventListener("click",dogImg);
 cowbtn.addEventListener("click",cowImg);
+close.addEventListener("click",hideImg);
 function catImg(){
     document.querySelector('#catpic').style.visibility = "visible";
 }
@@ -17,5 +18,4 @@ function dogImg(){
 
 function cowImg(){
     document.querySelector('#cowpic').style.visibility = "visible";
-    
 }
