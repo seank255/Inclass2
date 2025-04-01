@@ -18,11 +18,15 @@ div{
     width: 100%;
     padding-top: 20px;
 }
-img{
-    visibility: hidden;
-}
 .img-hold{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.pic{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
