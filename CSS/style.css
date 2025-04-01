@@ -1,0 +1,28 @@
+
+.button{
+    border: solid 1px #ffa500;
+    background-color: #ffffff;
+}
+div{
+    border: solid 1px #ffa500;
+}
+.main-content{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.info-box{
+    width: 100%;
+    padding-top: 20px;
+}
+img{
+    visibility: hidden;
+}
+.img-hold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
